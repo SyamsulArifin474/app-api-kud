@@ -1,0 +1,36 @@
+{
+  "name": "app-api-kud",
+  "version": "1.0.0",
+  "description": "api app kud",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "SyamsulArifin",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyamsulArifin474/app-api-kud.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "nodejs"
+  ],
+  "bugs": {
+    "url": "https://github.com/SyamsulArifin474/app-api-kud/issues"
+  },
+  "homepage": "https://github.com/SyamsulArifin474/app-api-kud#readme"
+}
